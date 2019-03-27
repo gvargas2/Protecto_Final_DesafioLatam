@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>La Ñoquería</title>
-
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-		<!--NUESTRO CSS-->
-		<link rel="stylesheet" href="assets/css/style.css">
-		<!--AGREGANDO GOOGLE FONT-->
-		<link href="https://fonts.googleapis.com/css?family=Lobster|Nunito+Sans:300|Quicksand:300,700" rel="stylesheet">
-		<!--AGREGANDO AWESOME FONTS-->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/app.js"></script>
-
-	</head>
-	<body>
+<?php get_header(); ?>
 
 		<!--BARRA DE NAVEGACION-->
 		<nav class="navbar navbar-default">
@@ -64,13 +40,13 @@
 			 	<div class="carousel-inner">
 					<h1 class="titulo_carrusel">La Revolución de los Ñoquis</h1>
 			      <div class="item active">
-			       	<img src="assets/img/portada_noquis.jpg" alt="foto1 Fundación Niño y Cáncer" class="carrusel img-responsive img_carrusel">
+			       	<img src="<?php echo get_template_directory_uri();?>/assets/img/portada_noquis.jpg" alt="foto1 Fundación Niño y Cáncer" class="carrusel img-responsive img_carrusel">
 			      </div>
 			      <div class="item">
-			      	<img src="assets/img/nuestra_cocina.jpg" alt="foto2 Fundación Niño y Cáncer" class="carrusel img-responsive img_carrusel">
+			      	<img src="<?php echo get_template_directory_uri();?>/assets/img/nuestra_cocina.jpg" alt="foto2 Fundación Niño y Cáncer" class="carrusel img-responsive img_carrusel">
 			      </div>
 			      <div class="item">
-			     		<img src="assets/img/noquis_remolacha.jpg" alt="foto3 Fundación Niño y Cáncer" class="carrusel img-responsive img_carrusel">
+			     		<img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_remolacha.jpg" alt="foto3 Fundación Niño y Cáncer" class="carrusel img-responsive img_carrusel">
 			      </div>
 			   </div>
 			   <!-- Controls -->
@@ -133,7 +109,7 @@
 
 						<div class="row categoria__noquis">
 							<div class="col-md-2 categoria__noquis__producto">
-								<img src="assets/img/noquis_remolacha.jpg" alt="Ñoquis de Beterraga" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_remolacha.jpg" alt="Ñoquis de Beterraga" class="img-responsive">
 								<p class="categoria__titulo">Beterraga</p>
 								<p class="categoria__texto">Un color envidiable!</p>
 								<a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
@@ -141,28 +117,28 @@
 
 							</div>
 							<div class="col-md-2 categoria__noquis__producto">
-								<img src="assets/img/noquis_espinaca_2.jpg" alt="Ñoquis de Espinaca" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_espinaca_2.jpg" alt="Ñoquis de Espinaca" class="img-responsive">
 								<p class="categoria__titulo">Espinaca</p>
 								<p class="categoria__texto">Rico y nutritivo!</p>
 								<a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
 								<a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
 							</div>
 							<div class="col-md-2 hidden-xs categoria__noquis__producto">
-								<img src="assets/img/noquis_calabaza_2.jpg" alt="Ñoquis de Calabaza" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_calabaza_2.jpg" alt="Ñoquis de Calabaza" class="img-responsive">
 								<p class="categoria__titulo">Calabaza</p>
 								<p class="categoria__texto">Un poco dulces!</p>
 								<a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
 								<a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
 							</div>
 							<div class="col-md-2 hidden-xs categoria__noquis__producto">
-								<img src="assets/img/noqui_papa.jpg" alt="Ñoquis de Papa" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri();?>/assets/img/noqui_papa.jpg" alt="Ñoquis de Papa" class="img-responsive">
 								<p class="categoria__titulo">Papa</p>
 								<p class="categoria__texto">Los de siempre!</p>
 								<a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
 								<a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
 							</div>
 							<div class="col-md-2 hidden-xs categoria__noquis__producto">
-								<img src="assets/img/noquis_vegano_4.jpg" alt="Ñoquis Veganos" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_vegano_4.jpg" alt="Ñoquis Veganos" class="img-responsive">
 								<p class="categoria__titulo">Vegano 100%</p>
 								<p class="categoria__texto">Todos disfrutan!</p>
 								<a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
@@ -172,35 +148,35 @@
 
 						<div class="row categoria__salsa">
 							<div class="col-md-2 categoria__salsa__producto">
-								<img src="assets/img/salsa_cremosa_3.jpg" alt="Salsa a base de Crema" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri();?>/assets/img/salsa_cremosa_3.jpg" alt="Salsa a base de Crema" class="img-responsive">
 								<p class="categoria__titulo">Cremosa</p>
 								<p class="categoria__texto">Con crema de leche</p>
 								<a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
 								<a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
 							</div>
 							<div class="col-md-2 categoria__salsa__producto">
-								<img src="assets/img/salsa_pesto.jpg" alt="Salsa de Pesto" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri();?>/assets/img/salsa_pesto.jpg" alt="Salsa de Pesto" class="img-responsive">
 								<p class="categoria__titulo">Pesto</p>
 								<p class="categoria__texto">Combinación perfecta</p>
 								<a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
 								<a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
 							</div>
 							<div class="col-md-2 hidden-xs categoria__salsa__producto">
-								<img src="assets/img/salsa_pomodoro_2.jpg" alt="Salsa Pomodoro" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri();?>/assets/img/salsa_pomodoro_2.jpg" alt="Salsa Pomodoro" class="img-responsive">
 								<p class="categoria__titulo">Pomodoro</p>
 								<p class="categoria__texto">Tradicional con un giro</p>
 								<a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
 								<a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
 							</div>
 							<div class="col-md-2 hidden-xs categoria__salsa__producto">
-								<img src="assets/img/salsa_queso.jpg" alt="Salsa de Quesos" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri();?>/assets/img/salsa_queso.jpg" alt="Salsa de Quesos" class="img-responsive">
 								<p class="categoria__titulo">Quesos</p>
 								<p class="categoria__texto">Una bomba</p>
 								<a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
 								<a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
 							</div>
 							<div class="col-md-2 hidden-xs categoria__salsa__producto">
-								<img src="assets/img/salsa_cremosa_4.jpg" alt="Salsa sin Lactosa" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri();?>/assets/img/salsa_cremosa_4.jpg" alt="Salsa sin Lactosa" class="img-responsive">
 								<p class="categoria__titulo">ZeroLacto</p>
 								<p class="categoria__texto">Sin culpas!</p>
 								<a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
@@ -210,35 +186,35 @@
 
 						<div class="row categoria__topping">
 							<div class="col-md-2 categoria__topping__producto">
-								<img src="assets/img/albahaca_2.jpg" alt="Albahaca" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri();?>/assets/img/albahaca_2.jpg" alt="Albahaca" class="img-responsive">
 								<p class="categoria__titulo">Albahaca</p>
 								<p class="categoria__texto">Del huerto</p>
 								<a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
 								<a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
 							</div>
 							<div class="col-md-2 categoria__topping__producto">
-								<img src="assets/img/nueces.jpg" alt="Nueces" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri();?>/assets/img/nueces.jpg" alt="Nueces" class="img-responsive">
 								<p class="categoria__titulo">Nueces</p>
 								<p class="categoria__texto">Más Textura</p>
 								<a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
 								<a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
 							</div>
 							<div class="col-md-2 hidden-xs categoria__topping__producto">
-								<img src="assets/img/quesomozzarella_2.jpg" alt="Queso Mozzarella" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri();?>/assets/img/quesomozzarella_2.jpg" alt="Queso Mozzarella" class="img-responsive">
 								<p class="categoria__titulo">Queso Mozzarella</p>
 								<p class="categoria__texto">Esquisito!</p>
 								<a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
 								<a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
 							</div>
 							<div class="col-md-2 hidden-xs categoria__topping__producto">
-								<img src="assets/img/parmesano.jpg" alt="Queso Parmesano" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri();?>/assets/img/parmesano.jpg" alt="Queso Parmesano" class="img-responsive">
 								<p class="categoria__titulo">Queso Parmesano</p>
 								<p class="categoria__texto">Más por favor</p>
 								<a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
 								<a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
 							</div>
 							<div class="col-md-2 hidden-xs categoria__topping__producto">
-								<img src="assets/img/quesovegano_2.jpg" alt="Queso Vegano" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri();?>/assets/img/quesovegano_2.jpg" alt="Queso Vegano" class="img-responsive">
 								<p class="categoria__titulo">Queso Vegano</p>
 								<p class="categoria__texto">Sin culpas</p>
 								<a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
