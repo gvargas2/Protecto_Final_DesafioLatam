@@ -286,5 +286,4 @@
 		</footer>
 		<!--FIN FOOTER-->
 
-	</body>
-</html>
+<?php get_footer(); ?>
