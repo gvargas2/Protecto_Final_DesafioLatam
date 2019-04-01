@@ -180,7 +180,6 @@ function menus_setup() {
       )
     );
   }
-  add_action( 'after_setup_theme',
-'menus_setup' );
+  add_action( 'after_setup_theme','menus_setup' );
 
 ?>

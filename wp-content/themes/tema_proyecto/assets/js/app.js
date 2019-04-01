@@ -2,10 +2,9 @@
 $(document).ready(function(){
 
   // ADD BOOTSTRAP CLASS FOR NAVBAR MENU
-  $('.navbar-nav').children('li').addClass('nav.item');
-  $('.nav-item').children('a').addClass('nav-link js-scroll-trigger');
+  $('#menu-mi_menu li').addClass('nav-item').children(this).addClass('nav-link js-scroll-trigger');
+  $('.nav-item:last-of-type a').addClass('btn btn-primary').removeClass('js-scroll-trigger');
 
-  
   $('.categorias').on('click', '.agregar', function(e){
     e.preventDefault();
     var compra = $(this).parent().find('.categoria__titulo').html();
