@@ -1,5 +1,11 @@
 
 $(document).ready(function(){
+
+  // ADD BOOTSTRAP CLASS FOR NAVBAR MENU
+  $('.navbar-nav').children('li').addClass('nav.item');
+  $('.nav-item').children('a').addClass('nav-link js-scroll-trigger');
+
+  
   $('.categorias').on('click', '.agregar', function(e){
     e.preventDefault();
     var compra = $(this).parent().find('.categoria__titulo').html();

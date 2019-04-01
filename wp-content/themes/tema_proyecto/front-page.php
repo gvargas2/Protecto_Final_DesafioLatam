@@ -1,33 +1,5 @@
 <?php get_header(); ?>
 
-		<!--BARRA DE NAVEGACION-->
-		<nav class="navbar navbar-default">
-		  <div class="container-fluid">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand" href="#">LA NOQUERÍA</a>
-		    </div>
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav navbar-right navbar__links">
-		        <li><a href="nosotros.html">Nosotros</a></li>
-						<li><a href="filosofia.html">Filosofía</a></li>
-						<li><a href="index.html">Compra</a></li>
-						<li><a href="contacto.html">Contacto</a></li>
-						<li><a href="ayuda.html">Ayuda</a></li>
-						<li><a href="galeria.html">Galería</a></li>
-		      </ul>
-		    </div> <!-- /.navbar-collapse -->
-		  </div> <!-- /.container-fluid -->
-		</nav>
-		<!--FIN BARRA DE NAVEGACIO-->
-
 		<!--CARRUSEL-->
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
@@ -256,34 +228,5 @@
 			</div>
 		</section>
 		<!--FIN CARRITO DE COMPRAS-->
-
-		<!--FOOTER-->
-		<footer>
-			<div class="container footer">
-
-				<div class="row">
-
-					<div class="col-md-4 col-sm-4 col-xs-4 footer__links">
-						<a href="nosotros.html">Nosotros</a>
-						<a href="filosofia.html">Filosofia</a>
-						<a href="index.html">Compra</a>
-						<a href="contacto.html">Contacto</a>
-						<a href="ayuda.html">Ayuda</a>
-					</div>
-
-					<div class="col-md-4 col-sm-4 col-xs-4 footer__logo">
-						<p>LA ÑOQUERÍA</p>
-					</div>
-
-					<div class="col-md-4 col-sm-4 col-xs-4 footer__rrss">
-						<a href="#"><i class="fab fa-facebook-f"></i></a>
-						<a href="#"><i class="fab fa-instagram"></i></a>
-						<a href="#"><i class="fab fa-twitter"></i></a>
-					</div>
-
-				</div>
-			</div>
-		</footer>
-		<!--FIN FOOTER-->
 
 <?php get_footer(); ?>
