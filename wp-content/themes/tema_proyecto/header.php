@@ -24,7 +24,7 @@
 						'theme_location' 	=> 'header-menu',
 						'container_id'		=> 'navbarResponsive',
 						'container_class' 	=> 'collapse navbar-collapse',
-						'menu_class'     	=> 'navbar-nav ml-auto'
+						'menu_class'     	=> 'nav navbar-nav navbar-right navbar__links'
 						)
 					); ?>
 				<?php } ?>

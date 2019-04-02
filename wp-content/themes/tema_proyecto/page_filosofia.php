@@ -27,8 +27,9 @@
         ?>
       <div class="col-md-6">
         <h2 class="filosofia_main__nuevo text-center"><?php the_title() ?></h2>
-        <p class="filosofia_main__texto text-center"><?php the_content() ?></p>
-        <img class="img-responsive center-block img_noquisespinaca2" src="assets/img/noquis_espinaca_2.jpg" alt="Cruelty Free">
+        <div class="filosofia_main__texto text-center">
+          <?php the_content() ?>
+        </div>
       </div>
       <?php } wp_reset_postdata(); ?>
     </div>
