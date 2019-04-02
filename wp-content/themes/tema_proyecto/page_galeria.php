@@ -16,9 +16,10 @@
   <!--MAIN CONTACTO.HTML-->
 
   <div class="container">
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <div class="row galeria_cuerpo">
       <div class="">
-        <?php get_the_content(); ?>
+        <?php the_content(); ?>
       </div>
       <div class="col-md-4">
         <img src="assets/img/noquis_espinaca_2.jpg" alt="Noquis Espinaca" class="meals__img img-responsive">
@@ -33,6 +34,7 @@
         <button class="social__btn social__like" href="#"><i class="fas fa-heart"></i></button>
       </div>
     </div>
+    <?php endwhile; endif; ?>
   </div>
 
 <?php get_footer(); ?>
