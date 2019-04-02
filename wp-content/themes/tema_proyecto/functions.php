@@ -47,11 +47,15 @@ function register_enqueue_scripts() {
   wp_register_script('bootstrap-js',
   'https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js',
   array('jQuery'));
+  wp_register_script('cobro',
+  'https://js.stripe.com/v3/');
+
 
   /*Enqueue Scripts*/
   wp_enqueue_script('jQuery');
   wp_enqueue_script('my_js');
   wp_enqueue_script('bootstrap-js');
+  wp_enqueue_script('cobro');
 }
 
 add_action( 'wp_enqueue_scripts', 'register_enqueue_scripts' );
