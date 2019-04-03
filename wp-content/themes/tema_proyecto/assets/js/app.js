@@ -20,6 +20,12 @@ $(document).ready(function(){
     alert('Diste un like!');
   });
 
+  // Activacion Tooltipster
+
+  $('.tooltip').tooltipster({
+    theme: 'tooltipster-noir'
+  });
+
   // API COBRO
   var stripe = Stripe('pk_test_93NbiROVfG0l8DGpX369WUx3003dSrQMdz');
   var elements = stripe.elements();

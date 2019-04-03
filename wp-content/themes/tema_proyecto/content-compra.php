@@ -79,7 +79,7 @@
 
         <div class="row categoria__noquis">
           <div class="col-md-2 categoria__noquis__producto">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_remolacha.jpg" alt="Ñoquis de Beterraga" class="img-responsive">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_remolacha.jpg" alt="Ñoquis de Beterraga" class="img-responsive tooltip" title="$8000">
             <p class="categoria__titulo">Beterraga</p>
             <p class="categoria__texto">Un color envidiable!</p>
             <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
