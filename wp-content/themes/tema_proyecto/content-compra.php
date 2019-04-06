@@ -79,20 +79,32 @@
 
         <div class="row categoria__noquis">
           <div class="col-md-2 categoria__noquis__producto">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_remolacha.jpg" alt="Ñoquis de Beterraga" class="img-responsive" id="beterraga">
-
+            <div id="whatever">
+            	<div class="item">
+            		<img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_remolacha.jpg" class="img-responsive" alt="my image" title="my image" />
+            		<div class="caption" style="display: none;">
+            			<p>$7.000</p>
+            		</div>
+            	</div>
+            </div>
             <p class="categoria__titulo">Beterraga</p>
             <p class="categoria__texto">Un color envidiable!</p>
             <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
             <a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
-
           </div>
           <div class="col-md-2 categoria__noquis__producto">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_espinaca_2.jpg" alt="Ñoquis de Espinaca" class="img-responsive">
-            <p class="categoria__titulo">Espinaca</p>
-            <p class="categoria__texto">Rico y nutritivo!</p>
-            <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
-            <a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
+            <div id="whatever2">
+            	<div class="item">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_espinaca_2.jpg" alt="Ñoquis de Espinaca" class="img-responsive" />
+                  <div class="caption" style="display: none;">
+                    <p>$8.000</p>
+                  </div>
+                </div>
+              </div>
+              <p class="categoria__titulo">Espinaca</p>
+              <p class="categoria__texto">Rico y nutritivo!</p>
+              <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
+              <a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
           </div>
           <div class="col-md-2 hidden-xs categoria__noquis__producto">
             <img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_calabaza_2.jpg" alt="Ñoquis de Calabaza" class="img-responsive">

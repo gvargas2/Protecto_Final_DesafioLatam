@@ -23,6 +23,9 @@ function register_enqueue_style() {
   wp_register_style('aos',
   'https://unpkg.com/aos@2.3.1/dist/aos.css',
   null, '1.0.0', 'screen');
+  wp_register_style('hover-css',
+  get_parent_theme_file_uri('/assets/css/jquery.hoverGrid.css'),
+  null, '1.0.0', 'screen');
 
   /* Enqueue estilos */
   wp_enqueue_style('bootstrap');
@@ -31,6 +34,7 @@ function register_enqueue_style() {
   wp_enqueue_style('googlefonts');
   wp_enqueue_style('main');
   wp_enqueue_style('aos');
+  wp_enqueue_style('hover-css');
 
 }
 
@@ -43,7 +47,7 @@ function register_enqueue_scripts() {
 
   /*Resgistrando Scripts*/
   wp_register_script('jQuery',
-  'https://code.jquery.com/jquery-3.3.1.slim.min.js',
+  'https://code.jquery.com/jquery-3.3.1.min.js',
   null, '3.3.1', true);
   wp_register_script('my_js',
   get_parent_theme_file_uri('/assets/js/app.js'),
@@ -54,12 +58,16 @@ function register_enqueue_scripts() {
   wp_register_script('aos_js',
   'https://unpkg.com/aos@2.3.1/dist/aos.js',
   array(), null, true);
+  wp_register_script('hover',
+  get_parent_theme_file_uri('/assets/js/jquery.hoverGrid.js'),
+  null, null, true);
 
   /*Enqueue Scripts*/
   wp_enqueue_script('jQuery');
   wp_enqueue_script('my_js');
   wp_enqueue_script('bootstrap-js');
   wp_enqueue_script('aos_js');
+  wp_enqueue_script('hover');
 }
 
 add_action( 'wp_enqueue_scripts', 'register_enqueue_scripts' );
