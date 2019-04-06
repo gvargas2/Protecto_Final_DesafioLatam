@@ -1,7 +1,7 @@
 <!--HEADER CONTACTO.HTML-->
 <header>
   <section class="filosofia_header">
-    <div class="row">
+    <div class="row" data-aos="fade-up" data-aos-duration="3000">
       <div class="col-md-12">
         <h1 class="text-center filosofia_header__titulo">Nuestra Filosofía</h1>
         <h3 class="text-center filosofia_header__subtitulo">Para nosotros es importantísimo compartir contigo nuestra filosofía de

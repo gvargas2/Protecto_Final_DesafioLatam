@@ -1,7 +1,7 @@
 <!--HEADER CONTACTO.HTML-->
 <header>
   <section class="nosotros_header">
-    <div class="row">
+    <div class="row" data-aos="fade-up" data-aos-duration="3000">
       <h1 class="text-center nosotros_header__titulo">¡Conócenos!</h1>
       <h3 class="text-center nosotros_header__subtitulo">Queremos que nos conozcas y así poder brindarte el mejor
         servicio & compartir nuestra filosofía contigo</h3>

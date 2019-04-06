@@ -1,7 +1,7 @@
 <!--HEADER CONTACTO.HTML-->
 <header>
   <section class="contacto_header">
-    <div class="row">
+    <div class="row" data-aos="fade-up" data-aos-duration="3000">
       <div class="col-md-12">
         <h1 class="text-center contacto_header__titulo">Necesitas hablar con nosotros?</h1>
         <h3 class="text-center contacto_header__subtitulo">Estas son todas las formas que tienes de contactarnos!</h3>
@@ -81,7 +81,7 @@
         </form>
       </section>
     </div>
-    
+
   </div>
 
 </main> <!--FIN MAIN CONTACTO.HTML-->

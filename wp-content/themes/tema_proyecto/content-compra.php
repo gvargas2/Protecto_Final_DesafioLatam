@@ -32,7 +32,7 @@
 <!--FIN CARRUSEL-->
 
 <!--SECCION MAIN-->
-<main class="container principal">
+<main class="container principal" data-aos="fade-up" data-aos-duration="3000">
   <!--SECCION 2: PRODUCTOS-->
   <div class="row principal__row">
     <div class="col-md-2 productos">
@@ -79,7 +79,7 @@
 
         <div class="row categoria__noquis">
           <div class="col-md-2 categoria__noquis__producto">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_remolacha.jpg" alt="Ñoquis de Beterraga" class="img-responsive tooltip" title="$8000">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_remolacha.jpg" alt="Ñoquis de Beterraga" class="img-responsive">
             <p class="categoria__titulo">Beterraga</p>
             <p class="categoria__texto">Un color envidiable!</p>
             <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
@@ -199,7 +199,7 @@
 
 
 <!--CARRITO DE COMPRAS-->
-<section class="shopping container">
+<section class="shopping container" data-aos="fade-right">
   <div class="row">
     <div class="col-md-4 col-xs-12 shopping__titulo">
       <h2>Lo que disfrutarás hoy</h2>
@@ -224,22 +224,6 @@
       <p>$0.000</p>
     </div>
   </div>
-
-  <!--Implementando COBRO-->
-  <form action="/charge" method="post" id="payment-form">
-    <div class="form-row">
-      <label for="card-element">
-        Credit or debit card
-      </label>
-      <div id="card-element">
-        <!-- A Stripe Element will be inserted here. -->
-      </div>
-      <!-- Used to display Element errors. -->
-      <div id="card-errors" role="alert"></div>
-    </div>
-
-    <button>Submit Payment</button>
-  </form>
 
 </section>
 <!--FIN CARRITO DE COMPRAS-->

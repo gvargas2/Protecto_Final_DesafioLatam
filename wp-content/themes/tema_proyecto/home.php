@@ -3,7 +3,7 @@
 <!--HEADER blog-->
 <header>
   <section class="nosotros_header">
-    <div class="row">
+    <div class="row" data-aos="fade-up" data-aos-duration="3000">
       <h1 class="text-center nosotros_header__titulo">¡Bienvenido a nuestro Blog!</h1>
       <h3 class="text-center nosotros_header__subtitulo">Acá podrás ponerte al día con
         todas nuestras noticias</h3>

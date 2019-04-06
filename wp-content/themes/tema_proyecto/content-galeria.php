@@ -1,7 +1,7 @@
 <!--HEADER CONTACTO.HTML-->
 <header>
   <section class="galeria_header">
-    <div class="row">
+    <div class="row" data-aos="fade-up" data-aos-duration="3000">
       <div class="col-md-12">
         <h1 class="text-center galeria_header__titulo">Galería Fotográfica</h1>
         <h3 class="text-center galeria_header__subtitulo">Conócenos!</h3>

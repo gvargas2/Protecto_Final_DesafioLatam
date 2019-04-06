@@ -20,9 +20,9 @@ function register_enqueue_style() {
   wp_register_style('main',
   get_parent_theme_file_uri('/assets/css/styles.css'),
   null, '1.0.0', 'screen');
-  wp_register_style('tool_css',
-  get_parent_theme_file_uri('/assets/css/tooltipster.bundle.min.css'),
-  null, null, true);
+  wp_register_style('aos',
+  'https://unpkg.com/aos@2.3.1/dist/aos.css',
+  null, '1.0.0', 'screen');
 
   /* Enqueue estilos */
   wp_enqueue_style('bootstrap');
@@ -30,7 +30,7 @@ function register_enqueue_style() {
   wp_enqueue_style('fontawesome');
   wp_enqueue_style('googlefonts');
   wp_enqueue_style('main');
-  wp_enqueue_style('tool_css');
+  wp_enqueue_style('aos');
 
 }
 
@@ -51,19 +51,15 @@ function register_enqueue_scripts() {
   wp_register_script('bootstrap-js',
   'https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js',
   array('jQuery'));
-  wp_register_script('cobro',
-  'https://js.stripe.com/v3/', null, null, true);
-  wp_register_script('tool_js',
-  get_parent_theme_file_uri('/assets/js/tooltipster.bundle.min.js'),
-  null, null, true);
-
+  wp_register_script('aos_js',
+  'https://unpkg.com/aos@2.3.1/dist/aos.js',
+  array(), null, true);
 
   /*Enqueue Scripts*/
   wp_enqueue_script('jQuery');
   wp_enqueue_script('my_js');
   wp_enqueue_script('bootstrap-js');
-  wp_enqueue_script('cobro');
-  wp_enqueue_script('tool_js');
+  wp_enqueue_script('aos_js');
 }
 
 add_action( 'wp_enqueue_scripts', 'register_enqueue_scripts' );
