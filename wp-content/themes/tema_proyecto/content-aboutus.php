@@ -28,4 +28,7 @@
     </div>
     <?php } wp_reset_postdata(); ?>
   </div>
+  <div class="gallery">
+    
+  </div>
 </main><!--FIN MAIN NOSOTROS.HTML-->

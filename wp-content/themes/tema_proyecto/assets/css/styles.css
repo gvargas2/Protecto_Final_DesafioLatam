@@ -405,10 +405,7 @@ footer {
   .img_cocinanueva {
     margin-bottom: 20px;
   }
-  .hover-grid .hover-grid-item {
-    width: 50%;
-    }
-  }
+}
 
 @media (max-width: 1200px) {
   .principal__row {

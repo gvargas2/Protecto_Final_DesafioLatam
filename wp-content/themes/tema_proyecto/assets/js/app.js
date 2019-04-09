@@ -25,4 +25,17 @@ $(document).ready(function(){
     alert('Diste un like!');
   });
 
+  //Consumieno API UNSPLASH
+
+  var json_url = 'https://api.unsplash.com/photos/search?client_id=bcfd0fbb8d466bf656ab0c76bc905d02c7da69d786f3df4121fb7fdeeaf0b176&query=santiago&per_page=4';
+  $.getJSON(json_url, function( images ){
+    images.forEach(function(image) {
+      var $img = $('<img>');
+      $img.attr('src', image.urls.small);
+      $('.gallery').append($img);
+    })
+  })
+
+
+
 });
