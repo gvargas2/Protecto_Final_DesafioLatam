@@ -10,13 +10,14 @@
     <div class="carousel-inner">
       <h1 class="titulo_carrusel">La Revolución de los Ñoquis</h1>
         <div class="item active">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/portada_noquis.jpg" alt="foto1 Fundación Niño y Cáncer" class="carrusel img-responsive img_carrusel">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/carru1.jpg" alt="foto1 Fundación Niño y Cáncer" class="carrusel img-responsive img_carrusel">
+          <h1>Hola</h1>
         </div>
         <div class="item">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/nuestra_cocina.jpg" alt="foto2 Fundación Niño y Cáncer" class="carrusel img-responsive img_carrusel">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/carru2.jpg" alt="foto2 Fundación Niño y Cáncer" class="carrusel img-responsive img_carrusel">
         </div>
         <div class="item">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_remolacha.jpg" alt="foto3 Fundación Niño y Cáncer" class="carrusel img-responsive img_carrusel">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/carru4.jpg" alt="foto3 Fundación Niño y Cáncer" class="carrusel img-responsive img_carrusel">
         </div>
      </div>
      <!-- Controls -->
