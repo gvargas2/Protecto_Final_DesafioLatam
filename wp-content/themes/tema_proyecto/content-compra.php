@@ -32,7 +32,10 @@
 </div>
 <!--FIN CARRUSEL-->
 
-<!--SECCION MAIN-->
+<!-- Contenido NOSOTROS -->
+<?php get_template_part( 'content', 'aboutus' ); ?>
+
+<!--SECCION MAIN PAGINA DE COMPRA-->
 <main class="container principal" data-aos="fade-up" data-aos-duration="3000">
   <!--SECCION 2: PRODUCTOS-->
   <div class="row principal__row">
@@ -237,6 +240,10 @@
       <h2>Tu total</h2>
       <p>$0.000</p>
     </div>
+  </div>
+
+  <div class="gallery">
+
   </div>
 
 </section>

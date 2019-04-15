@@ -35,4 +35,8 @@
   </div>
 </main><!--FIN MAIN NOSOTROS.HTML-->
 
+<div class="gallery">
+
+</div>
+
 <?php get_footer(); ?>

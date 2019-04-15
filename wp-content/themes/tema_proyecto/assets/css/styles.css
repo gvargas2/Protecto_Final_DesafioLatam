@@ -32,6 +32,7 @@ body {
     line-height: 1;
     height: 100%;
 }
+
 .formulario_compras {
   height: 120px;
 }
@@ -40,6 +41,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-weight:{ñ´}0 700;
 }
+
 /*BARRA DE NAVEGACIÓN*/
 .container-fluid {
   background-color: #373737;
@@ -68,19 +70,35 @@ body {
   background-color: #C0B283;
   padding: 60px 40px 80px 40px;
 }
+.nosotros_header {
+  background-color: #DCD0D0;
+}
+
+/*NOSOTROS */
+.nosotros_main {
+  background-image: url("../img/fondo3.jpg");
+  background-size: cover;
+  color: white;
+  width: 100%;
+}
 
 /*MAIN INDEX.HTML*/
 .principal__row {
   background-color: #373737;
 }
 .principal {
-  margin-top: 35px;
+  margin-top: 25px;
 }
+
 /*MAIN DE TODAS LAS PAGINAS, FORMATO GENERAL*/
 .nosotros_main, .filosofia_main, .contacto_main, .ayuda_main {
   padding-top: 25px;
   padding-bottom: 50px;
 }
+.nosotros_main {
+  padding-bottom: 0;
+}
+
 /*MAIN CONTACTO.HTML*/
 .contacto_main {
   text-align: center;
@@ -121,6 +139,7 @@ body {
 .img_zerowaste {
   width: 80%;
 }
+
 /*HEADER Y MAIN TODAS LAS PAGINAS*/
 .filosofia_header__titulo, .galeria_header__titulo, .nosotros_header__titulo, .ayuda_header__titulo, .contacto_header__titulo,
 .contacto_titulo, .filosofia_main__nuevo, .nosotros_main__nuevo, .ayuda_main__nuevo {
@@ -139,10 +158,12 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-weight: 300;
 }
+
 /*MAIN FILOSOFIA.HTML*/
 .filosofia_main .col-md-6 {
   margin-bottom: 60px;
 }
+
 /*SECCIÓN 2: PRODUCTOS, INDEX.HTML*/
 .productos {
   background-color: #373737;
@@ -331,6 +352,10 @@ fieldset {
   padding-left: 15px;
 }
 
+/*Galeria API*/
+.gallery {
+  padding-top: 80px;
+}
 /*FOOTER, INDEX.HTML*/
 footer {
   background-color: #373737;

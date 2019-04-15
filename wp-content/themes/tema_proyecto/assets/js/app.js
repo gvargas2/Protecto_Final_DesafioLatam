@@ -32,7 +32,7 @@ $(document).ready(function(){
     images.forEach(function(image) {
       var $img = $('<img>');
       $img.attr('src', image.urls.small);
-      $('.gallery').append($img);
+      $('.gallery').append('<div>' + $img + '</div>');
     })
   })
 
