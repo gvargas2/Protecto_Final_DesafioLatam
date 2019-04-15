@@ -4,7 +4,22 @@ $(document).ready(function(){
   AOS.init();
 
   $('#whatever').hoverGrid();
-    $('#whatever2').hoverGrid();
+  $('#whatever2').hoverGrid();
+  $('#whatever3').hoverGrid();
+  $('#whatever4').hoverGrid();
+  $('#whatever5').hoverGrid();
+
+  $('#whatever6').hoverGrid();
+  $('#whatever7').hoverGrid();
+  $('#whatever8').hoverGrid();
+  $('#whatever9').hoverGrid();
+  $('#whatever10').hoverGrid();
+
+  $('#whatever11').hoverGrid();
+  $('#whatever12').hoverGrid();
+  $('#whatever13').hoverGrid();
+  $('#whatever14').hoverGrid();
+  $('#whatever15').hoverGrid();
 
   // ADD BOOTSTRAP CLASS FOR NAVBAR MENU
   $('#menu-mi_menu li').addClass('nav-item').children(this).addClass('nav-link js-scroll-trigger');

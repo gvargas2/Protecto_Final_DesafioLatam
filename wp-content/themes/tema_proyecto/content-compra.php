@@ -87,7 +87,7 @@
             	<div class="item">
             		<img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_remolacha.jpg" class="img-responsive" alt="my image" title="my image" />
             		<div class="caption" style="display: none;">
-            			<p>$7.000</p>
+            			<p>$4.000</p>
             		</div>
             	</div>
             </div>
@@ -101,7 +101,7 @@
             	<div class="item">
                 <img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_espinaca_2.jpg" alt="Ñoquis de Espinaca" class="img-responsive" />
                   <div class="caption" style="display: none;">
-                    <p>$8.000</p>
+                    <p>$3.900</p>
                   </div>
                 </div>
               </div>
@@ -111,21 +111,42 @@
               <a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
           </div>
           <div class="col-md-2 hidden-xs categoria__noquis__producto">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_calabaza_2.jpg" alt="Ñoquis de Calabaza" class="img-responsive">
+            <div id="whatever3">
+            	<div class="item">
+            		<img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_calabaza_2.jpg" class="img-responsive" alt="my image" title="my image" />
+            		<div class="caption" style="display: none;">
+            			<p>$4.000</p>
+            		</div>
+            	</div>
+            </div>
             <p class="categoria__titulo">Calabaza</p>
             <p class="categoria__texto">Un poco dulces!</p>
             <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
             <a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
           </div>
           <div class="col-md-2 hidden-xs categoria__noquis__producto">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/noqui_papa.jpg" alt="Ñoquis de Papa" class="img-responsive">
+            <div id="whatever4">
+            	<div class="item">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/noqui_papa.jpg" alt="Ñoquis de Papa" class="img-responsive">
+                <div class="caption" style="display: none;">
+                  <p>$3.900</p>
+                </div>
+              </div>
+            </div>
             <p class="categoria__titulo">Papa</p>
             <p class="categoria__texto">Los de siempre!</p>
             <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
             <a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
           </div>
           <div class="col-md-2 hidden-xs categoria__noquis__producto">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_vegano_4.jpg" alt="Ñoquis Veganos" class="img-responsive">
+            <div id="whatever5">
+            	<div class="item">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/noquis_vegano_4.jpg" alt="Ñoquis Veganos" class="img-responsive">
+                <div class="caption" style="display: none;">
+                  <p>$4.000</p>
+                </div>
+              </div>
+            </div>
             <p class="categoria__titulo">Vegano 100%</p>
             <p class="categoria__texto">Todos disfrutan!</p>
             <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
@@ -135,35 +156,70 @@
 
         <div class="row categoria__salsa">
           <div class="col-md-2 categoria__salsa__producto">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/salsa_cremosa_3.jpg" alt="Salsa a base de Crema" class="img-responsive">
+            <div id="whatever6">
+            	<div class="item">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/salsa_cremosa_3.jpg" alt="Salsa a base de Crema" class="img-responsive">
+                <div class="caption" style="display: none;">
+                  <p>$3.000</p>
+                </div>
+              </div>
+            </div>
             <p class="categoria__titulo">Cremosa</p>
             <p class="categoria__texto">Con crema de leche</p>
             <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
             <a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
           </div>
           <div class="col-md-2 categoria__salsa__producto">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/salsa_pesto.jpg" alt="Salsa de Pesto" class="img-responsive">
+            <div id="whatever7">
+            	<div class="item">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/salsa_pesto.jpg" alt="Salsa de Pesto" class="img-responsive">
+                <div class="caption" style="display: none;">
+                  <p>$4.000</p>
+                </div>
+              </div>
+            </div>
             <p class="categoria__titulo">Pesto</p>
             <p class="categoria__texto">Combinación perfecta</p>
             <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
             <a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
           </div>
           <div class="col-md-2 hidden-xs categoria__salsa__producto">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/salsa_pomodoro_2.jpg" alt="Salsa Pomodoro" class="img-responsive">
+            <div id="whatever8">
+            	<div class="item">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/salsa_pomodoro_2.jpg" alt="Salsa Pomodoro" class="img-responsive">
+                <div class="caption" style="display: none;">
+                  <p>$3.000</p>
+                </div>
+              </div>
+            </div>
             <p class="categoria__titulo">Pomodoro</p>
             <p class="categoria__texto">Tradicional con un giro</p>
             <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
             <a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
           </div>
           <div class="col-md-2 hidden-xs categoria__salsa__producto">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/salsa_queso.jpg" alt="Salsa de Quesos" class="img-responsive">
+            <div id="whatever9">
+            	<div class="item">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/salsa_queso.jpg" alt="Salsa de Quesos" class="img-responsive">
+                <div class="caption" style="display: none;">
+                  <p>$4.000</p>
+                </div>
+              </div>
+            </div>
             <p class="categoria__titulo">Quesos</p>
             <p class="categoria__texto">Una bomba</p>
             <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
             <a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
           </div>
           <div class="col-md-2 hidden-xs categoria__salsa__producto">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/salsa_cremosa_4.jpg" alt="Salsa sin Lactosa" class="img-responsive">
+            <div id="whatever10">
+            	<div class="item">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/salsa_cremosa_4.jpg" alt="Salsa sin Lactosa" class="img-responsive">
+                <div class="caption" style="display: none;">
+                  <p>$3.700</p>
+                </div>
+              </div>
+            </div>
             <p class="categoria__titulo">ZeroLacto</p>
             <p class="categoria__texto">Sin culpas!</p>
             <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
@@ -173,35 +229,70 @@
 
         <div class="row categoria__topping">
           <div class="col-md-2 categoria__topping__producto">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/albahaca_2.jpg" alt="Albahaca" class="img-responsive">
+            <div id="whatever11">
+            	<div class="item">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/albahaca_2.jpg" alt="Albahaca" class="img-responsive">
+                <div class="caption" style="display: none;">
+                  <p>$1.000</p>
+                </div>
+              </div>
+            </div>
             <p class="categoria__titulo">Albahaca</p>
             <p class="categoria__texto">Del huerto</p>
             <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
             <a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
           </div>
           <div class="col-md-2 categoria__topping__producto">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/nueces.jpg" alt="Nueces" class="img-responsive">
+            <div id="whatever12">
+            	<div class="item">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/nueces.jpg" alt="Nueces" class="img-responsive">
+                <div class="caption" style="display: none;">
+                  <p>$1.200</p>
+                </div>
+              </div>
+            </div>
             <p class="categoria__titulo">Nueces</p>
             <p class="categoria__texto">Más Textura</p>
             <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
             <a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
           </div>
           <div class="col-md-2 hidden-xs categoria__topping__producto">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/quesomozzarella_2.jpg" alt="Queso Mozzarella" class="img-responsive">
+            <div id="whatever13">
+            	<div class="item">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/quesomozzarella_2.jpg" alt="Queso Mozzarella" class="img-responsive">
+                <div class="caption" style="display: none;">
+                  <p>$1.300</p>
+                </div>
+              </div>
+            </div>
             <p class="categoria__titulo">Queso Mozzarella</p>
             <p class="categoria__texto">Esquisito!</p>
             <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
             <a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
           </div>
           <div class="col-md-2 hidden-xs categoria__topping__producto">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/parmesano.jpg" alt="Queso Parmesano" class="img-responsive">
+            <div id="whatever14">
+            	<div class="item">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/parmesano.jpg" alt="Queso Parmesano" class="img-responsive">
+                <div class="caption" style="display: none;">
+                  <p>$1.200</p>
+                </div>
+              </div>
+            </div>
             <p class="categoria__titulo">Queso Parmesano</p>
             <p class="categoria__texto">Más por favor</p>
             <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
             <a href="#" class="agregar"><i class="fas fa-plus"></i>  Agregar</a>
           </div>
           <div class="col-md-2 hidden-xs categoria__topping__producto">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/quesovegano_2.jpg" alt="Queso Vegano" class="img-responsive">
+            <div id="whatever15">
+            	<div class="item">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/quesovegano_2.jpg" alt="Queso Vegano" class="img-responsive">
+                <div class="caption" style="display: none;">
+                  <p>$1.300</p>
+                </div>
+              </div>
+            </div>
             <p class="categoria__titulo">Queso Vegano</p>
             <p class="categoria__texto">Sin culpas</p>
             <a href="#"><i class="fas fa-angle-down"></i>  Más Info</a>
@@ -240,10 +331,6 @@
       <h2>Tu total</h2>
       <p>$0.000</p>
     </div>
-  </div>
-
-  <div class="gallery">
-
   </div>
 
 </section>
