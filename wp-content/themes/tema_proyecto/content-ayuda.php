@@ -14,16 +14,8 @@
 
   <div class="row">
     <div class="col-md-12" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-      <h2 class="ayuda_main__nuevo">Cómo comprar? <i class="fas fa-arrow-alt-circle-down"></i></h2>
-      <p class="ayuda_main__texto">Muy sencillo! <br>
-      Al <strong>finalizar tu compra</strong>, tienes que hacer un depósito a la <strong>cuenta:</strong><br>
-      Nombre: Juan Péres <br>
-      Banco: Infinito <br>
-      Cuenta Corriente, número: XXXXXXXXXXX <br>
-      Correo: juanperez@gmail.com <br>
-      Asunto: Tu número de pedido, que nosotros te entregaremos <br>
-      <strong>Al momento de nosotros recibir el correo de confirmación, procesaremos la solicitud y tu pedido llegara en máximo 2hrs
-      (dependiendo de donde vivas)</strong></p>
+      <h2 class="ayuda_main__nuevo"><?php the_field('pregunta_1'); ?> <i class="fas fa-arrow-alt-circle-down"></i></h2>
+      <h5 class="ayuda_main__texto"><?php the_field('texto_pregunta_1'); ?></h5>
     </div>
     <div class="col-md-12" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
       <h2 class="ayuda_main__nuevo">Packaging <i class="fas fa-arrow-alt-circle-down"></i></h2>

@@ -66,7 +66,7 @@ body {
   height: 4px;
 }
 /*HEADER TODAS LAS PAGINAS*/
-.nosotros_header, .filosofia_header, .contacto_header, .ayuda_header, .galeria_header {
+.nosotros_header, .filosofia_header, .contacto_header, .ayuda_header, .galeria_header, .blog_header {
   background-color: #C0B283;
   padding: 60px 40px 80px 40px;
 }
@@ -84,7 +84,9 @@ body {
 
 /*FILOSOFIA*/
 .filosofia_header {
-  background-image: url("../img/cabecera2.jpg");
+  background-image: url("../img/fondo2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*MAIN INDEX.HTML*/
@@ -96,7 +98,7 @@ body {
 }
 
 /*MAIN DE TODAS LAS PAGINAS, FORMATO GENERAL*/
-.nosotros_main, .filosofia_main, .contacto_main, .ayuda_main {
+.nosotros_main, .filosofia_main, .contacto_main, .ayuda_main, .blog_main {
   padding-top: 25px;
   padding-bottom: 50px;
 }
@@ -148,17 +150,20 @@ body {
 
 /*HEADER Y MAIN TODAS LAS PAGINAS*/
 .filosofia_header__titulo, .galeria_header__titulo, .nosotros_header__titulo, .ayuda_header__titulo, .contacto_header__titulo,
-.contacto_titulo, .filosofia_main__nuevo, .nosotros_main__nuevo, .ayuda_main__nuevo {
+.contacto_titulo, .filosofia_main__nuevo, .nosotros_main__nuevo, .ayuda_main__nuevo, .blog_main__nuevo {
   font-family: 'Lobster', cursive;
 }
 .filosofia_header__subtitulo, .galeria_header__subtitulo, .nosotros_header__subtitulo, .ayuda_header__subtitulo, .contacto_header__subtitulo {
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
 }
-.filosofia_main__texto, .nosotros_main__texto, .ayuda_main__texto {
+.filosofia_main__texto, .nosotros_main__texto, .ayuda_main__texto, .blog_main__texto {
   font-family: 'Quicksand', sans-serif;
   font-weight: 300;
   padding: 30px 0;
+}
+.blog_main__texto {
+  padding: 0;
 }
 .contacto_main p {
   font-family: 'Quicksand', sans-serif;
@@ -168,6 +173,10 @@ body {
 /*MAIN FILOSOFIA.HTML*/
 .filosofia_main .col-md-6 {
   margin-bottom: 60px;
+}
+.filosofia_header {
+  color: white;
+  background-color: #DCD0D0;
 }
 
 /*SECCIÓN 2: PRODUCTOS, INDEX.HTML*/

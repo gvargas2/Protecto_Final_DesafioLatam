@@ -2,7 +2,7 @@
 
 <!--HEADER blog-->
 <header>
-  <section class="nosotros_header">
+  <section class="blog_header">
     <div class="row" data-aos="fade-up" data-aos-duration="3000">
       <h1 class="text-center nosotros_header__titulo">¡Bienvenido a nuestro Blog!</h1>
       <h3 class="text-center nosotros_header__subtitulo">Acá podrás ponerte al día con
@@ -11,7 +11,7 @@
   </section>
 </header> <!--FIN HEADER-->
 
-<main class="container nosotros_main">
+<main class="container blog_main">
   <div class="row">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
@@ -23,8 +23,8 @@
   		}
   		?>
     <div class="col-md-6">
-      <h2 class="nosotros_main__nuevo text-center"><?php the_title(); ?></h2>
-      <div class="  nosotros_main__texto text-center">
+      <h2 class="blog_main__nuevo text-center"><?php the_title(); ?></h2>
+      <div class="  blog_main__texto text-center">
         <p>Autor: <?php the_author() ?> | Fecha: <?php the_time() ?> </p>
       </div>
       <div class="nosotros_main__texto text-center">

@@ -47,9 +47,9 @@ $(document).ready(function(){
     images.forEach(function(image) {
       var $img = $('<img>');
       $img.attr('src', image.urls.small);
-      $('.gallery').append('<div>' + $img + '</div>');
-    })
-  })
+      $('.gallery').append('<div>'+JSON.parse($img)+'</div>');
+    });
+  });
 
 
 
