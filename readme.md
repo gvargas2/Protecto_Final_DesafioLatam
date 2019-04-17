@@ -20,3 +20,9 @@ Haremos un Deploy automático, para lo cual debemos seguir los siguentes pasos:
 - Paso 2: Agregar la Base de Datos. Pero para ellos primero debemos ir a CPanel y crear nuestra Base de Datos, en "Asistente de Base de Datos". Testeamos y Continuamos.
 - Paso 3: Nos logeamos con nuestro usuario y contraseña de Wordpress.
 - Borrar los archivos instalados con FilleZilla. Para ello cliqueamos en alerta "Migration Almost Complete". Borramos los archivos cliqueando "Remove Files".
+
+## Link a Youtube
+### Ambiente de Desarrollo
+https://www.youtube.com/watch?v=A61xG2TLSAM&feature=youtu.be
+
+### Ambiente de Producción
