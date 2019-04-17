@@ -26,3 +26,4 @@ Haremos un Deploy automático, para lo cual debemos seguir los siguentes pasos:
 https://www.youtube.com/watch?v=A61xG2TLSAM&feature=youtu.be
 
 ### Ambiente de Producción
+https://www.youtube.com/watch?v=9WX_DFO5TV4&feature=youtu.be
