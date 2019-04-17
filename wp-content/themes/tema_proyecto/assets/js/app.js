@@ -21,6 +21,12 @@ $(document).ready(function(){
   $('#whatever14').hoverGrid();
   $('#whatever15').hoverGrid();
 
+  $(function () {
+      $("#rateYo").rateYo({
+        rating: 3.6
+      });
+    });
+
   // ADD BOOTSTRAP CLASS FOR NAVBAR MENU
   $('#menu-mi_menu li').addClass('nav-item').children(this).addClass('nav-link js-scroll-trigger');
   $('.nav-item:last-of-type a').addClass('btn btn-primary').removeClass('js-scroll-trigger');
@@ -45,9 +51,7 @@ $(document).ready(function(){
   var json_url = 'https://api.unsplash.com/photos/search?client_id=bcfd0fbb8d466bf656ab0c76bc905d02c7da69d786f3df4121fb7fdeeaf0b176&query=santiago&per_page=4';
   $.getJSON(json_url, function( images ){
     images.forEach(function(image) {
-      var $img = $('<img>');
-      $img.attr('src', image.urls.small);
-      $('.gallery').append('<div>'+JSON.parse($img)+'</div>');
+      $('.gallery').append('<div class="imagen_api text-center"><img class="img-responsive" src='+ image.urls.small +' ></div>');
     });
   });
 

@@ -26,6 +26,9 @@ function register_enqueue_style() {
   wp_register_style('hover-css',
   get_parent_theme_file_uri('/assets/css/jquery.hoverGrid.css'),
   null, '1.0.0', 'screen');
+  wp_register_style('rateyo',
+  'https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css',
+  null, '1.0.0', 'screen');
 
   /* Enqueue estilos */
   wp_enqueue_style('bootstrap');
@@ -35,6 +38,7 @@ function register_enqueue_style() {
   wp_enqueue_style('main');
   wp_enqueue_style('aos');
   wp_enqueue_style('hover-css');
+  wp_enqueue_style('rateyo');
 
 }
 
@@ -61,6 +65,9 @@ function register_enqueue_scripts() {
   wp_register_script('hover',
   get_parent_theme_file_uri('/assets/js/jquery.hoverGrid.js'),
   null, null, true);
+  wp_register_script('rateyo-js',
+  'https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js',
+  array(), null, true);
 
   /*Enqueue Scripts*/
   wp_enqueue_script('jQuery');
@@ -68,6 +75,7 @@ function register_enqueue_scripts() {
   wp_enqueue_script('bootstrap-js');
   wp_enqueue_script('aos_js');
   wp_enqueue_script('hover');
+  wp_enqueue_script('rateyo-js');
 }
 
 add_action( 'wp_enqueue_scripts', 'register_enqueue_scripts' );

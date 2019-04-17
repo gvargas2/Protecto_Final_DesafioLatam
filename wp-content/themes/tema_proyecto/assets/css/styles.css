@@ -66,7 +66,7 @@ body {
   height: 4px;
 }
 /*HEADER TODAS LAS PAGINAS*/
-.nosotros_header, .filosofia_header, .contacto_header, .ayuda_header, .galeria_header, .blog_header {
+.nosotros_header, .filosofia_header, .contacto_header, .ayuda_header, .galeria_header, .blog_header, .api_header {
   background-color: #C0B283;
   padding: 60px 40px 80px 40px;
 }
@@ -83,10 +83,11 @@ body {
 }
 
 /*FILOSOFIA*/
-.filosofia_header {
+.filosofia_header, .contacto_header, .galeria_header, .blog_header, .api_header {
   background-image: url("../img/fondo2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  color: white;
 }
 
 /*MAIN INDEX.HTML*/
@@ -95,6 +96,9 @@ body {
 }
 .principal {
   margin-top: 25px;
+}
+.sin_margen, .api_header {
+  margin: 0;
 }
 
 /*MAIN DE TODAS LAS PAGINAS, FORMATO GENERAL*/
@@ -150,10 +154,10 @@ body {
 
 /*HEADER Y MAIN TODAS LAS PAGINAS*/
 .filosofia_header__titulo, .galeria_header__titulo, .nosotros_header__titulo, .ayuda_header__titulo, .contacto_header__titulo,
-.contacto_titulo, .filosofia_main__nuevo, .nosotros_main__nuevo, .ayuda_main__nuevo, .blog_main__nuevo {
+.contacto_titulo, .filosofia_main__nuevo, .nosotros_main__nuevo, .ayuda_main__nuevo, .blog_main__nuevo, .titulo_api {
   font-family: 'Lobster', cursive;
 }
-.filosofia_header__subtitulo, .galeria_header__subtitulo, .nosotros_header__subtitulo, .ayuda_header__subtitulo, .contacto_header__subtitulo {
+.filosofia_header__subtitulo, .galeria_header__subtitulo, .nosotros_header__subtitulo, .ayuda_header__subtitulo, .contacto_header__subtitulo, .texto_api {
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
 }
@@ -168,6 +172,10 @@ body {
 .contacto_main p {
   font-family: 'Quicksand', sans-serif;
   font-weight: 300;
+}
+.ayuda_header {
+  background-image: url("../img/ayuda_main.jpg");
+  background-size: cover;
 }
 
 /*MAIN FILOSOFIA.HTML*/
@@ -370,7 +378,7 @@ fieldset {
 
 /*Galeria API*/
 .gallery {
-  padding-top: 80px;
+
 }
 /*FOOTER, INDEX.HTML*/
 footer {
@@ -415,6 +423,12 @@ footer {
 }
 .meals__img {
   border: 2px solid white;
+}
+
+/*API*/
+.imagen_api {
+  margin: 20px;
+  display: inline-block;
 }
 
 /*MEDIAS*/

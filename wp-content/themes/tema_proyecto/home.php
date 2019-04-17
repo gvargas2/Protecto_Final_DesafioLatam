@@ -35,8 +35,16 @@
   </div>
 </main><!--FIN MAIN NOSOTROS.HTML-->
 
-<div class="gallery">
+<div class="consumoapi">
+  <div class="row api_header">
+    <h1 class="text-center titulo_api" data-aos="fade-up" data-aos-duration="3000">Cultura La Ñoquería</h1>
+    <p class="text-center texto_api" data-aos="fade-up" data-aos-duration="3000">Te invitamos a conocer la colección de imagenes de seleccionamos para ti en UnSplash. Una colección que nos representa.</p>
+  </div>
+  <div class="row sin_margen">
+    <div class="gallery">
 
+    </div>
+  </div>
 </div>
 
 <?php get_footer(); ?>

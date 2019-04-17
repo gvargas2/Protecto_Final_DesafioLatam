@@ -22,7 +22,7 @@
       while ( $get_arg->have_posts() ) {
         $get_arg->the_post();
       ?>
-    <div class="col-md-6">
+    <div class="col-md-6" data-aos="fade-up" data-aos-duration="3000">
       <h2 class="filosofia_main__nuevo text-center"><?php the_title() ?></h2>
       <div class="filosofia_main__texto text-center">
         <?php the_content() ?>
